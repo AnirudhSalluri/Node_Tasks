@@ -4,6 +4,4 @@ const EventEmitter = require('events');
     myownEmmiter.on("log",()=>{
         console.log("Log Event : sample.txt")
     })
-
-
 module.exports=myownEmmiter
